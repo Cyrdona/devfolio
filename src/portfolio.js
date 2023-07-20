@@ -49,12 +49,13 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Ce que je fais ",
+  title: "Ce que je fais ", 
+
   subTitle: "UN DEVELOPPEUR AMOUREUX DE LA TECH QUI VEUT EXPLORER TOUTES LES TECHNOLOGIES",
   skills: [
     emoji("⚡ Développer des interfaces utilisateur hautement interactives pour vos applications web et mobiles."),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Applications Web , ERP & CRM Open Source "),
+    emoji("⚡ Solutions Applicatives Open Source: NextCloud, GitLab, Frappe-Erpnext, OBS studio, GLPI, Dolibarr.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -62,57 +63,82 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "Html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "Css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "ReactJs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "NodeJs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Php",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "npm",
+      skillName: "Npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "Sql-Database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Cpanel",
+      fontAwesomeClassname: "fab fa-cpanel"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Wordpress",
+      fontAwesomeClassname: "fab fa-wordpress"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "Windows 11",
+      fontAwesomeClassname: "fab fa-windows"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Microsoft Word",
+      fontAwesomeClassname: "far fa-file-word"
+    },
+    {
+      skillName: "Microsoft Excel",
+      fontAwesomeClassname: "far fa-file-excel"
+    },
+    {
+      skillName: "Microsoft PowerPoint",
+      fontAwesomeClassname: "far fa-file-powerpoint"
+    },
+    {
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
+   
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -123,20 +149,32 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Institut CERCO BENIN",
+      logo: require("./assets/images/cercologo.png"),
+      subHeader: "Licence en Informatique de Gestion",
+      duration: "Septembre 2017 - Juillet 2020",
+      desc: "THEME: Conception d'un feu intelligent favorisant la libre circulation des piétons en zone de forte affluence : cas de la Haie-Vive",   
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      schoolName: "OpenClassRoom",
+      logo: require("./assets/images/openclassrooms.png"),
+      subHeader: "Certification en ligne",
+      duration: "September 2013 - April 2017",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
+      schoolName: "Udemy",
+      logo: require("./assets/images/udemylogo.png"),
+      subHeader: "Certification en ligne",
+      duration: "September 2013 - April 2017",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
+      schoolName: "Coursera",
+      logo: require("./assets/images/courseralogo.png"),
+      subHeader: "Certification en ligne",
       duration: "September 2013 - April 2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
@@ -171,30 +209,69 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Assistant de Formateur",
+      company: "Ministère de l'Agriculture de la Production Animale et Halieutique de TOGO",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "11 au 29 Décembre 2019",
+      desc: "Projet Telefood à Adéta au TOGO.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Formation des producteurs locaux sur la mise en place d’un business plans",
+        "Suivie des coopératives pour la mise en place d’organigramme hiérarchique afin de bien structurer les coopératives",
+        "Conception de Logo, Slogan pour les Coopérative",
+        "Formation sur le marketing"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      
+      role: "Stage Professionnel",
+      company: "Tribunal de Commerce de Cotonou",
+      companylogo: require("./assets/images/tcc.png"),
+      date: "22 Octobre 2020 à 22 Mars 2021",
+      desc: "Se fut ma tout première insertion dans la vie professionnel hors cadre universitaire.",
+      descBullets: [
+        "Maintenance des Ordinateurs",
+        "Maintenance des Scanneur et Impriment",
+        "Support réseau",
+        "Mise à jour des fiches de procès"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Stage Professionnel",
+      company: "Banque BIIC",
+      companylogo: require("./assets/images/bi.png"),
+      date: "22 Mars 2021 à 29 Avril 2022",
+      desc: ".",
+      descBullets: [
+        "Installation des logiciels métiers (Utilitaire de la Banque)",
+        "Mise en réseau des ordinateurs, des imprimantes et scanneur",
+        "Maintenance hardware et software",
+        "Installation et configuration de MONEYGRAM Support Réseau Niveau 1",
+        "Support Helpdesk",
+        "Assistance a distances des utilisateurs",
+        "Installation des Scanneur Cheque",
+        "Installation et personnalisation de GLPI (Gestionnaire Libre de Parc Informatique) sur Ubuntu Server",
+      ]
+    },
+    {
+      role: "Consultant Developpeur Freelance",
+      company: "CBOX Sarl",
+      companylogo: require("./assets/images/favicon..png"),
+      date: "Depuis Aout 2022 jusqu'aujourd'hui",
+      desc: "Projet : Étude du déploiement d’un Réseau LAN et conception d'App Web ",
+      descBullets: [
+      "Survey",
+      "Rédaction du rapport technique",
+      "Proposition d’offre technique",
+      "Initiation interconnexion LAN",
+      "Mise en place des câbles, étiquetage, pose des prises informatiques",
+      "Installation des machines",
+      "Installation de la baie informatique et du server",
+      "Installation de camera",
+        
+      ]
+    },
+    
+    
   ]
 };
 
@@ -209,28 +286,50 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Gros Projets",
+  subtitle: "J'ai eu à travaillé sur des ERP & CRM",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/dolibarrlogo.png"),
+      projectName: "Dolibarr customiser pour de CBOX Sarl",
+      projectDesc: "ERP Open Source pour gerer le personnel , les factures , les clients, les fournisseurs",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visitez le  Site web",
+          url: "https://hrms.cbox.bj/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/githublogo.png"),
+      projectName: "Mes projets de developpement",
+      projectDesc: "Ensembles des projets web complet",
+      footerLink: [
+        {
+          name: "Visitez le  Site web",
+          url: "https://github.com/cyrdona/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/laravellogo.png"),
+      projectName: "Framework Laravel",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visitez le  Site web",
+          url: "http:///"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/excel.png"),
+      projectName: "Excel Avancé",
+      projectDesc: "Utilisation des macros , PowerBi, pour la conception de fichier excel toujours plus dynamique",
+      footerLink: [
+        {
+          name: "Visitez le  Site web",
           url: "http://nextu.se/"
         }
       ]
@@ -243,17 +342,17 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Réalisations et Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Réalisations, Certifications, et quelques trucs sympas que j'ai faits !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Openclassrooms",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "J'ai eu quelques certifications sur OpenclassRooms",
+      image: require("./assets/images/ocr.jpg"),
+      imageAlt: "Openclassroom",
       footerLink: [
         {
           name: "Certification",
@@ -284,9 +383,9 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Wordpress",
+      subtitle: "J'ai concu des sites à l'aide du CMS Wordpress",
+      image: require("./assets/images/wp.png"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
@@ -327,7 +426,7 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Discussions",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
@@ -360,7 +459,7 @@ const contactInfo = {
   title: emoji("Contactez-Moi ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
+  number: "+22961355916",
   email_address: "pierrecyriaquedona@gmail.com"
 };
 
