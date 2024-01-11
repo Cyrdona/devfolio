@@ -23,12 +23,12 @@ const greeting = {
   username: "Pierre Behanzin",
   title: "Salut, moi c'est Pierre",
   subTitle: emoji(
-    "🚀 Développeur Front-End et Software, Support Helpdesk et Réseau Niveau 1, je suis intéressée par tout ce qui touche aux Développement, à l’IOT et à la Mise en place de solution informatique. Sérieux, dynamique et engagée, j’aime travailler en équipe car c’est toujours pour moi une occasion de partager et d’apprendre des autres.."
+    "🚀 Développeur Front-End et Software, IT Support et Support Réseau Niveau 1, je suis intéressée par tout ce qui touche aux Développement, à l’IOT et à la Mise en place de solution informatique. Sérieux, dynamique et engagée, j’aime travailler en équipe car c’est toujours pour moi une occasion de partager et d’apprendre des autres.."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1wUn8T96jfWq3Ajz9JA3ThtmCvXxLwV8k/view?usp=sharing", // Set to empty to hide the button
   cv:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1wUn8T96jfWq3Ajz9JA3ThtmCvXxLwV8k/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -211,7 +211,7 @@ const workExperiences = {
     {
       role: "Assistant de Formateur",
       company: "Ministère de l'Agriculture de la Production Animale et Halieutique de TOGO",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/tg.jpg"),
       date: "11 au 29 Décembre 2019",
       desc: "Projet Telefood à Adéta au TOGO.",
       descBullets: [
@@ -296,7 +296,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visitez le  Site web",
-          url: "https://hrms.cbox.bj/"
+          url: "https://gestion.cbox.bj/"
         }
         //  you can add extra buttons here.
       ]
@@ -356,16 +356,16 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/103yCHJmPb_4yk6zQ1MqjFMcCuBYPutR-/view?usp=sharing"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Award Letter",
+        //   // url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   // url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
@@ -374,12 +374,12 @@ const achievementSection = {
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+      // footerLink: [
+      //   {
+      //     name: "View Google Assistant Action",
+      //     // url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+      //   }
+      // ]
     },
 
     {
@@ -387,13 +387,13 @@ const achievementSection = {
       subtitle: "J'ai concu des sites à l'aide du CMS Wordpress",
       image: require("./assets/images/wp.png"),
       imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      // footerLink: [
+      //   {name: "Certification", url: ""},
+      //   {
+      //     name: "Final Project",
+      //     // url: "https://pakistan-olx-1.firebaseapp.com/"
+      //   }
+      // ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -408,13 +408,13 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      // url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      // url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
@@ -435,8 +435,8 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      // slides_url: "https://bit.ly/saadpasta-slides",
+      // event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
   display: true // Set false to hide this section, defaults to true
