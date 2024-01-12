@@ -38,8 +38,8 @@ const socialMediaLinks = {
   github: "https://github.com/cyrdona",
   linkedin: "https://www.linkedin.com/in/behanzinpierrecyr/",
   gmail: "pierrecyriaquedona@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/pierrecyrbhn",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/pierrecyrbhn",
   whatsapp: "https://wa.me/22961355916",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -55,7 +55,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Développer des interfaces utilisateur hautement interactives pour vos applications web et mobiles."),
     emoji("⚡ Applications Web , ERP & CRM Open Source "),
-    emoji("⚡ Solutions Applicatives Open Source: NextCloud, GitLab, Frappe-Erpnext, OBS studio, GLPI, Dolibarr.")
+    emoji("⚡ Solutions Applicatives Open Source: NextCloud, GitHub, Frappe-Erpnext, OBS studio, GLPI, Dolibarr.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -159,25 +159,29 @@ const educationInfo = {
       schoolName: "OpenClassRoom",
       logo: require("./assets/images/openclassrooms.png"),
       subHeader: "Certification en ligne",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      // duration: "September 2013 - April 2017",
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Certificat de réussite en Montez un serveur de fichiers sous linux"],
+      descBullets: ["Apprenez à programmer en Python Certificat de réussite en Montez un serveur de fichiers sous Linux"]
     },
     {
       schoolName: "Udemy",
       logo: require("./assets/images/udemylogo.png"),
       subHeader: "Certification en ligne",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      // duration: "September 2013 - April 2017",
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Certificat sur Conception de bases de données et Langage SQL"],
+      descBullets: ["Certificat sur la Formation Git et GitHub: de Débutant à Confirmé"]
     },
     {
       schoolName: "Coursera",
       logo: require("./assets/images/courseralogo.png"),
       subHeader: "Certification en ligne",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      // duration: "September 2013 - April 2017",
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Agile with Atlassian Jira"],
+      descBullets: ["Google IT Support Professional Certificate"],
+      descBullets: ["System Administration and IT Infrastructure Services"]
     }
   ]
 };
@@ -459,7 +463,7 @@ const contactInfo = {
   title: emoji("Contactez-Moi ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+22961355916",
+  number: "+229 61355916",
   email_address: "pierrecyriaquedona@gmail.com"
 };
 
