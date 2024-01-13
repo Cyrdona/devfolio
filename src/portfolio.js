@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 3000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -23,12 +23,11 @@ const greeting = {
   username: "Pierre Behanzin",
   title: "Salut, moi c'est Pierre",
   subTitle: emoji(
-    "🚀 Développeur Front-End et Software, IT Support et Support Réseau Niveau 1, je suis intéressée par tout ce qui touche aux Développement, à l’IOT et à la Mise en place de solution informatique. Sérieux, dynamique et engagée, j’aime travailler en équipe car c’est toujours pour moi une occasion de partager et d’apprendre des autres.."
+    "🚀 En tant que développeur Front-End, expert en support informatique et réseau, je m'intéresse à divers domaines tels que le développement, l'IoT et la mise en place de solutions informatiques. Dynamique et engagé, j'apprécie le travail d'équipe car il représente pour moi une opportunité constante de partager des connaissances et d'apprendre des autres."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1wUn8T96jfWq3Ajz9JA3ThtmCvXxLwV8k/view?usp=sharing", // Set to empty to hide the button
-  cv:
-    "https://drive.google.com/file/d/1wUn8T96jfWq3Ajz9JA3ThtmCvXxLwV8k/view?usp=sharing",
+
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -208,7 +207,24 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "70%"
+    },
+    {
+      Stack: "WordPress",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Laravel",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Frontend Mobile",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Maintenance Informatique",
+      progressPercentage: "99%"
     }
+    
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -326,23 +342,23 @@ const bigProjects = {
       image: require("./assets/images/laravellogo.png"),
       projectName: "Framework Laravel",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visitez le  Site web",
-          url: "http:///"
-        }
-      ]
+      // footerLink: [
+      //   {
+      //     name: "Visitez le  Site web",
+      //     url: "http:///"
+      //   }
+      // ]
     },
     {
       image: require("./assets/images/excel.png"),
       projectName: "Excel Avancé",
       projectDesc: "Utilisation des macros , PowerBi, pour la conception de fichier excel toujours plus dynamique",
-      footerLink: [
-        {
-          name: "Visitez le  Site web",
-          url: "http://nextu.se/"
-        }
-      ]
+      // footerLink: [
+      //   {
+      //     name: "Visitez le  Site web",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -361,49 +377,77 @@ const achievementSection = {
       title: "Openclassrooms",
       subtitle:
         "J'ai eu quelques certifications sur OpenclassRooms",
-      image: require("./assets/images/ocr.jpg"),
+      image: require("./assets/images/opc.jpg"),
       imageAlt: "Openclassroom",
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/103yCHJmPb_4yk6zQ1MqjFMcCuBYPutR-/view?usp=sharing"
         },
-        // {
-        //   name: "Award Letter",
-        //   // url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        // },
-        // {
-        //   name: "Google Code-in Blog",
-        //   // url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        // }
+  
       ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      // footerLink: [
-      //   {
-      //     name: "View Google Assistant Action",
-      //     // url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-      //   }
-      // ]
     },
 
     {
+      title: "SmartCheking",
+      subtitle:
+        "Je suis entrain de creer une application mobile de controle des entrer et sortie",
+      image: require("./assets/images/smartcheking.png"),
+      imageAlt: "SmartCheking",
+      footerLink: [
+        {
+          name: "Quelque capture",
+          url: "https://drive.google.com/file/d/1M29S54cAOiLf-VK6CiKcODkzzg5hheVo/view?usp=drive_link"
+        },
+  
+      ]
+    },
+    {
+      title: "ChatBot",
+      subtitle:
+        "J ai creer un chat bot",
+      image: require("./assets/images/bot.png"),
+      imageAlt: "ChatBot",
+      footerLink: [
+        {
+          name: "Lien du ChatBot",
+          url: "https://mediafiles.botpress.cloud/e325fda8-9aaf-4434-b528-66ab7ecdd333/webchat/bot.html"
+        },
+  
+      ]
+    },
+    {
+      title: "Excel ",
+      subtitle:
+        "J ai creer quelque application avec excel",
+      image: require("./assets/images/téléchargement.png"),
+      imageAlt: "excel",
+      footerLink: [
+        {
+          name: "Gestion de Stock",
+          url: "https://docs.google.com/spreadsheets/d/1-0fr1TPEbyO3KPeVKLh6_8t42IeSjHuI/edit?usp=drive_link&ouid=110007211230501464278&rtpof=true&sd=true"
+        },
+        {
+          name: "Gestion de facture",
+          url: "https://docs.google.com/spreadsheets/d/1-GFWzjeUnQLe-j0zMc5w16SueEw0w5PL/edit?usp=drive_link&ouid=110007211230501464278&rtpof=true&sd=true"
+        },
+  
+      ]
+    },
+    
+   
+
+   {
       title: "Wordpress",
       subtitle: "J'ai concu des sites à l'aide du CMS Wordpress",
       image: require("./assets/images/wp.png"),
       imageAlt: "PWA Logo",
-      // footerLink: [
-      //   {name: "Certification", url: ""},
-      //   {
-      //     name: "Final Project",
-      //     // url: "https://pakistan-olx-1.firebaseapp.com/"
-      //   }
-      // ]
+      footerLink: [
+        {
+          name: "Final Project",
+          // url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -412,71 +456,71 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      // url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      // url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  // title: "Blogs",
+  // subtitle:
+  //   "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  // displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  // blogs: [
+  //   {
+  //     // url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+  //     title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+  //     description:
+  //       "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+  //   },
+  //   {
+  //     // url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+  //     title: "Why REACT is The Best?",
+  //     description:
+  //       "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+  //   }
+  // ],
+  // display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "Discussions",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+  // title: "Discussions",
+  // subtitle: emoji(
+  //   "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  // ),
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      // slides_url: "https://bit.ly/saadpasta-slides",
-      // event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  // talks: [
+  //   {
+  //     title: "Build Actions For Google Assistant",
+  //     subtitle: "Codelab at GDG DevFest Karachi 2019",
+  //     // slides_url: "https://bit.ly/saadpasta-slides",
+  //     // event_url: "https://www.facebook.com/events/2339906106275053/"
+  //   }
+  // ],
+  // display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  // title: emoji("Podcast 🎙️"),
+  // subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
+  // // Please Provide with Your Podcast embeded Link
+  // podcast: [
+  //   "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  // ],
+  // display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contactez-Moi ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+229 61355916",
+    "Discuter d'un projet ou simplement dire bonjour ? Ma boîte de réception est ouverte à tous.",
+  number: "+225 0142455422",
   email_address: "pierrecyriaquedona@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "@BehanzinPierre1", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
