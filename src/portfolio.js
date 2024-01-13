@@ -161,8 +161,12 @@ const educationInfo = {
       subHeader: "Certification en ligne",
       // duration: "September 2013 - April 2017",
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      // descBullets: ["Certificat de réussite en Montez un serveur de fichiers sous linux"],
-      descBullets: ["Apprenez à programmer en Python Certificat de réussite en Montez un serveur de fichiers sous Linux"]
+      // descBullets: [],
+      descBullets: [
+        "Apprenez à programmer en Python Certificat de réussite en Montez un serveur de fichiers sous Linux",
+        "Certificat de réussite en Montez un serveur de fichiers sous linux"
+      ]
+
     },
     {
       schoolName: "Udemy",
@@ -179,9 +183,11 @@ const educationInfo = {
       subHeader: "Certification en ligne",
       // duration: "September 2013 - April 2017",
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      // descBullets: ["Agile with Atlassian Jira"],
-      // descBullets: ["Google IT Support Professional Certificate"],
-      descBullets: ["System Administration and IT Infrastructure Services"]
+      descBullets: [
+        "System Administration and IT Infrastructure Services",
+        "Google IT Support Professional Certificate",
+        "Agile with Atlassian Jira"
+      ]
     }
   ]
 };
@@ -361,7 +367,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/103yCHJmPb_4yk6zQ1MqjFMcCuBYPutR-/view?usp=sharing"
-        }
+        },
         // {
         //   name: "Award Letter",
         //   // url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
@@ -378,12 +384,12 @@ const achievementSection = {
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          // url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+      // footerLink: [
+      //   {
+      //     name: "View Google Assistant Action",
+      //     // url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+      //   }
+      // ]
     },
 
     {
@@ -391,13 +397,13 @@ const achievementSection = {
       subtitle: "J'ai concu des sites à l'aide du CMS Wordpress",
       image: require("./assets/images/wp.png"),
       imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          // url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      // footerLink: [
+      //   {name: "Certification", url: ""},
+      //   {
+      //     name: "Final Project",
+      //     // url: "https://pakistan-olx-1.firebaseapp.com/"
+      //   }
+      // ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -412,13 +418,13 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      // url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      // url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
