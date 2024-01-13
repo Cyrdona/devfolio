@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/devfolio/static/css/main.5b1f00a6.css",
-    "main.js": "/devfolio/static/js/main.6b16517b.js",
+    "main.css": "/devfolio/static/css/main.00658caa.css",
+    "main.js": "/devfolio/static/js/main.73a59643.js",
     "static/css/64.bba8fa55.chunk.css": "/devfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.1692348f.chunk.js": "/devfolio/static/js/64.1692348f.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/devfolio/static/css/769.b3cbb36b.chunk.css",
@@ -10,12 +10,12 @@
     "static/media/laravellogo.png": "/devfolio/static/media/laravellogo.fa1bee47fb41d407b7bf.png",
     "static/media/Agustina.woff": "/devfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/tcc.png": "/devfolio/static/media/tcc.20954c43e5c967315d5e.png",
-    "static/media/ocr.jpg": "/devfolio/static/media/ocr.002ae99f1a7bbcfc482d.jpg",
     "static/media/manOnTable.svg": "/devfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/smartcheking.png": "/devfolio/static/media/smartcheking.b5a9cb2bbdd3e4182ce0.png",
     "static/media/bi.png": "/devfolio/static/media/bi.02ec68b2c5ad04b52bab.png",
     "static/media/contactMailDark.svg": "/devfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/devfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/googleAssistantLogo.webp": "/devfolio/static/media/googleAssistantLogo.f720c71652579588524a.webp",
+    "static/media/bot.png": "/devfolio/static/media/bot.5039de4ae50fc04dc82e.png",
     "static/media/excel.png": "/devfolio/static/media/excel.817d206b90a534405749.png",
     "static/media/courseralogo.png": "/devfolio/static/media/courseralogo.00f17885b9a2be59ddee.png",
     "static/media/favicon..png": "/devfolio/static/media/favicon..e78c60c64b766aa23b4d.png",
@@ -24,15 +24,15 @@
     "static/media/skill.svg": "/devfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/devfolio/index.html",
     "static/media/talksCardBack.svg": "/devfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.5b1f00a6.css.map": "/devfolio/static/css/main.5b1f00a6.css.map",
-    "main.6b16517b.js.map": "/devfolio/static/js/main.6b16517b.js.map",
+    "main.00658caa.css.map": "/devfolio/static/css/main.00658caa.css.map",
+    "main.73a59643.js.map": "/devfolio/static/js/main.73a59643.js.map",
     "64.bba8fa55.chunk.css.map": "/devfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.1692348f.chunk.js.map": "/devfolio/static/js/64.1692348f.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/devfolio/static/css/769.b3cbb36b.chunk.css.map",
     "769.bda0d7b7.chunk.js.map": "/devfolio/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b1f00a6.css",
-    "static/js/main.6b16517b.js"
+    "static/css/main.00658caa.css",
+    "static/js/main.73a59643.js"
   ]
 }
