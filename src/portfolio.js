@@ -40,6 +40,7 @@ const socialMediaLinks = {
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/pierrecyrbhn",
   whatsapp: "https://wa.me/22961355916",
+  whatsapp: "https://wa.me/22501424565422",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
