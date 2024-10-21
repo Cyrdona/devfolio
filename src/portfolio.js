@@ -223,6 +223,10 @@ const techStack = {
     {
       Stack: "Maintenance Informatique",
       progressPercentage: "99%"
+    },
+    {
+      Stack: "Odoo",
+      progressPercentage: "60%"
     }
     
   ],
@@ -295,6 +299,31 @@ const workExperiences = {
       "Installation de camera",
         
       ]
+    }, 
+    {
+      role: "Technicien Informatique",
+      company: "ECOWAS/CEDEAO",
+      companylogo: require("./assets/images/ecowas.png"),
+      date: "En Aout 2024 ",
+      desc: "Evernement : Retraite des représentants résidents et permanent de la CEDEAO  ",
+      descBullets: [
+      "Technicien Informatique",
+      "Bureautique",
+      "Secrétariat ",
+      "Protocole ",
+      ]
+    }, 
+    {
+      role: "Assistant CSP",
+      company: "Ministère de l’Environnement, du Développement Durable et de la Transition Écologique",
+      companylogo: require("./assets/images/mineddte.jpg"),
+      date: "Depuis Septembre 2024 ",
+      desc: "Programme : Rapport sur l’état d ‘avancement de la transition climatique en Côte d’Ivoire ",
+      descBullets: [
+      "Technicien Informatique",
+      "Bureautique",
+      "Membre de l’Équipe d ‘appui du Secrétaire Exécutif ",
+      ]
     },
     
     
@@ -341,13 +370,16 @@ const bigProjects = {
     {
       image: require("./assets/images/laravellogo.png"),
       projectName: "Framework Laravel",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       // footerLink: [
       //   {
       //     name: "Visitez le  Site web",
       //     url: "http:///"
       //   }
       // ]
+    }, {
+      image: require("./assets/images/odoo.png"),
+      projectName: "Odoo",
+    
     },
     {
       image: require("./assets/images/excel.png"),
@@ -401,6 +433,21 @@ const achievementSection = {
         },
   
       ]
+    }, 
+    {
+      title: "IKARAN",
+      subtitle:
+        "Plateforme d'e-learning et de transcription en langue local",
+      image: require("./assets/images/3.png"),
+      imageAlt: "IKARAN",
+      footerLink: [
+        {
+          name: "Quelque capture",
+          url: "https://drive.google.com/file/d/1oCf5AfclZpaUyynL45QcrIo7yvSVsoXC/view?usp=sharing",
+          url: "https://drive.google.com/file/d/1naTfxnaF_eI6VbRofbMMmcwu1qBcnaqb/view?usp=drive_link"
+        },
+  
+      ]
     },
     {
       title: "ChatBot",
@@ -435,8 +482,6 @@ const achievementSection = {
       ]
     },
     
-   
-
    {
       title: "Wordpress",
       subtitle: "J'ai concu des sites à l'aide du CMS Wordpress",
@@ -513,8 +558,9 @@ const contactInfo = {
   title: emoji("Contactez-Moi ☎️"),
   subtitle:
     "Discuter d'un projet ou simplement dire bonjour ? Ma boîte de réception est ouverte à tous.",
-  number: "+225 0142455422",
-  email_address: "pierrecyriaquedona@gmail.com"
+  number: "+225 0720121218",
+  email_address: "pierrecyriaquedona@gmail.com",
+  email_address: "behanzinpierrecyriaque@gmail.com"
 };
 
 // Twitter Section
