@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/devfolio/static/css/main.00658caa.css",
-    "main.js": "/devfolio/static/js/main.49f4519b.js",
+    "main.js": "/devfolio/static/js/main.98def91f.js",
     "static/css/64.bba8fa55.chunk.css": "/devfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.1692348f.chunk.js": "/devfolio/static/js/64.1692348f.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/devfolio/static/css/769.b3cbb36b.chunk.css",
@@ -9,6 +9,7 @@
     "static/media/Montserrat-Regular.ttf": "/devfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/laravellogo.png": "/devfolio/static/media/laravellogo.fa1bee47fb41d407b7bf.png",
     "static/media/Agustina.woff": "/devfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/odoo.png": "/devfolio/static/media/odoo.c923190a333e80894f9c.png",
     "static/media/tcc.png": "/devfolio/static/media/tcc.20954c43e5c967315d5e.png",
     "static/media/manOnTable.svg": "/devfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/smartcheking.png": "/devfolio/static/media/smartcheking.b5a9cb2bbdd3e4182ce0.png",
@@ -20,12 +21,14 @@
     "static/media/courseralogo.png": "/devfolio/static/media/courseralogo.00f17885b9a2be59ddee.png",
     "static/media/favicon..png": "/devfolio/static/media/favicon..e78c60c64b766aa23b4d.png",
     "static/media/githublogo.png": "/devfolio/static/media/githublogo.7061a94111858a47814e.png",
+    "static/media/3.png": "/devfolio/static/media/3.bd51ac85633644ab4453.png",
+    "static/media/ecowas.png": "/devfolio/static/media/ecowas.74c8bf42cfc9fdf8bf7c.png",
     "static/media/tg.jpg": "/devfolio/static/media/tg.6b8bd9acbb716be9939e.jpg",
     "static/media/skill.svg": "/devfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/devfolio/index.html",
     "static/media/talksCardBack.svg": "/devfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.00658caa.css.map": "/devfolio/static/css/main.00658caa.css.map",
-    "main.49f4519b.js.map": "/devfolio/static/js/main.49f4519b.js.map",
+    "main.98def91f.js.map": "/devfolio/static/js/main.98def91f.js.map",
     "64.bba8fa55.chunk.css.map": "/devfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.1692348f.chunk.js.map": "/devfolio/static/js/64.1692348f.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/devfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -33,6 +36,6 @@
   },
   "entrypoints": [
     "static/css/main.00658caa.css",
-    "static/js/main.49f4519b.js"
+    "static/js/main.98def91f.js"
   ]
 }
